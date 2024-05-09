@@ -6,7 +6,7 @@ A simple service to transfer funds between accounts.
 * Uses H2 Database
 * Uses Flyway for DB versioning & migration
 * Tested with Java 17
-* Utilizes freecurrencyapi (https://api.freecurrencyapi.com/v1/latest) for fetching exchange rates
+* Utilizes freecurrencyapi (https://freecurrencyapi.com) for fetching exchange rates
 
 ### Useful Resources
 
