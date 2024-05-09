@@ -1,0 +1,22 @@
+﻿spring:
+  application:
+    name: transfer
+  datasource:
+    url: jdbc:h2:mem:transferdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+#    properties:
+#      hibernate:
+#        show_sql: true
+  h2.console.enabled: true
+  management:
+    health:
+      probes:
+        enabled: true
+
+freecurrencyapi:
+  url: https://api.freecurrencyapi.com/v1/latest
+  api-key: fca_live_AgfSp4BV0Bu4nxA0iaACQv1K6wTtX5ZhJ1fUH4I4
