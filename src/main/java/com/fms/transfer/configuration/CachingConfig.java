@@ -18,7 +18,7 @@ public class CachingConfig {
 
     public static final String EXCHANGE_RATES = "exchangeRates";
 
-    private static final long EXCHANGE_RATES_TIMOEOUT = (long) 500 * 60 * 1000;
+    private static final long EXCHANGE_RATES_TIMOEOUT = (long) 5 * 60 * 1000;
 
     @Bean
     public CacheManager cacheManager() {
